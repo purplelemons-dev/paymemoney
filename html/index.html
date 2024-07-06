@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayMeMoney</title>
+</head>
+
+<body>
+    <p>Good day, <code style="color:red;" id="site">[ENABLE JAVASCRIPT]</code> is owned by <a
+            href="https://github.com/purplelemons-dev#contact">Josh
+            Smith</a>.</p>
+
+    <p>If you would like to purchase this domain, please contact me via any means listed in the contact section of my
+        GitHub profile (linked above).</p>
+</body>
+<script>
+    const site = window.location.hostname;
+    document.getElementById('site').innerText = site;
+    document.getElementById('site').style.color = "black";
+</script>
+
+</html>
